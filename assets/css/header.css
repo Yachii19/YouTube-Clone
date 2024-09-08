@@ -1,0 +1,139 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    z-index: 200;
+}
+
+/* left-section */
+.header-container .left-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 190px;
+}
+
+.left-section .hamburger-menu {
+    width: 24px;
+    margin: 0px 25px;
+    cursor: pointer;
+}
+
+.left-section .youtube-logo {
+    height: 20px;
+    cursor: pointer;
+}
+/* left-section */
+
+
+/* middle-section */
+.header-container {
+    background-color: white;
+}
+
+.header-container .middle-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    flex: 1;
+    max-width: 600px;
+}
+
+input {
+    flex: 1;
+    font-size: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 12px;
+    padding-right: 5px;
+    height: 40px;
+    border: 1px solid rgb(203, 203, 203);
+    width: 0;
+    box-shadow: inset 1px 1px 4px rgb(237, 237, 237);
+}
+
+
+input:focus {
+    outline: none;
+    border-color: rgb(0, 30, 255);
+    z-index: 100;
+}
+
+.search-container {
+    height: 40px;
+    border: 1px solid rgb(203, 203, 203);
+    width: 60px;
+    margin-left: -1px;
+    background-color: rgb(242, 242, 242);
+    margin-right: 8px;
+    transition: background-color 0.15s;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.search-container:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.search-icon {
+    height: 25px;
+}
+
+.voice-search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 50%;
+    transition: background-color 0.15s;
+}
+
+.voice-search-container:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.voice-search-icon {
+    width: 24px;
+}
+
+/* middle-section */
+
+
+/* right-section */
+.right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 35px;
+    flex-shrink: 0;
+}
+
+.right-section .right-section-icon {
+    width: 24px;
+    height: 24px;
+
+}
+
+.right-section .my-channel {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+/* right-section */

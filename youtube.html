@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" href="./assets/images/icons/favicon.ico" type="image/x-icon">
+
+    <!-- CSS External Link -->
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/tooltip.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/sidebar.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <!-- header of the page wherein it is always visible even after scrolling -->
+     <header class="header-container">
+        <section class="left-section">
+            <img class="hamburger-menu" src="./assets/images/icons/hamburger-menu.svg" alt="menu">
+            <img class="youtube-logo" src="./assets/images/icons/youtube-logo.svg" alt="youtube logo">
+        </section>
+
+        <section class="middle-section">
+            <input type="text" placeholder="Search">
+            <div class="search-container">
+                <img class="search-icon" src="./assets/images/icons/search.svg" alt="search">
+                <div class="tooltip">Search</div>
+            </div>
+            <div class="voice-search-container">
+                <img class="voice-search-icon" src="./assets/images/icons/voice-search-icon.svg" alt="voice search button">
+                <div class="tooltip">Search with your voice</div>
+            </div>
+            
+        </section>
+
+        <section class="right-section">
+            <div class="icon-container">
+                <img class="right-section-icon" src="./assets/images/icons/upload.svg" alt="create button">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="icon-container">
+                <img class="right-section-icon" src="./assets/images/icons/youtube-apps.svg" alt="youtube apps button">
+                <div class="tooltip">Youtube Apps</div>
+            </div>
+            <div class="icon-container">
+                <img class="right-section-icon" src="./assets/images/icons/notifications.svg" alt="notifications button">
+                <div class="tooltip">Notifications</div>
+            </div>
+            <a href="https://www.youtube.com/@johnreinvinuya8252">
+                <img class="my-channel" src="./assets/images/profile/my-channel.jpeg" alt="user channel button">
+            </a>
+        </section>
+     </header>
+
+     <!-- sidebar where navigation buttons are found -->
+     <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="./assets/images/icons/home.svg" alt="home button">
+            <p>Home</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assets/images/icons/explore.svg" alt="explore button">
+            <p>Explore</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assets/images/icons/subscriptions.svg" alt="subscription button">
+            <p>Subscription></p>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assets/images/icons/originals.svg" alt="originals button">
+            <p>Originals</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assets/images/icons/youtube-music.svg" alt="youtube music button">
+            <p>YouTube Music</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="./assets/images/icons/library.svg" alt="library button">
+            <p>Library</p>
+        </div>
+     </nav>
+
+    <!-- main section where videos are found -->
+    <main>
+        <section class="video-feed">
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://youtu.be/G3e-cpL7ofc?si=SLx8oYZGf1FMtZoV">
+                        <img src="./assets/images/thumbnail/thumbnail-1.png" alt="thumbnail">
+                    </a>
+                    
+                    <div class="video-time">6:31:23</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@SuperSimpleDev">
+                            <img src="./assets/images/profile/channel-1.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-1.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">SuperSimpleDev</p>
+                                <p  class="tooltip-channel-subscribers">503K subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://youtu.be/G3e-cpL7ofc?si=SLx8oYZGf1FMtZoV">HTML & CSS Full Course - Beginner to Pro</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@SuperSimpleDev">SuperSimpleDev</a>
+                        </p>
+                        <p class="video-stats">11M views · 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=aRcUVhVlSHg&t=1s">
+                        <img src="./assets/images/thumbnail/thumbnail-2.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">31:47</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@MrBeast">
+                            <img src="./assets/images/profile/channel-2.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-2.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">MrBeast</p>
+                                <p  class="tooltip-channel-subscribers">314M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=aRcUVhVlSHg&t=1s">Men Vs Women Survive The Wilderness For $500.000</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@MrBeast">MrBeast</a>
+                        </p>
+                        <p class="video-stats">49M views · 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=vVBdZkTWyOQ">
+                        <img src="./assets/images/thumbnail/thumbnail-3.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">20:58</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@Gorgc">
+                            <img src="./assets/images/profile/channel-3.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-3.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">Gorgc</p>
+                                <p  class="tooltip-channel-subscribers">206K subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=vVBdZkTWyOQ">Getting Grandmaster Lv30 with this Arcana set</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@Gorgc">Gorgc</a>
+                        </p>
+                        <p class="video-stats">35K views · 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=VmTZ2yO3BZ4">
+                        <img src="./assets/images/thumbnail/thumbnail-4.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">34:05</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@GothamChess">
+                            <img src="./assets/images/profile/channel-4.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-4.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">GothamChess</p>
+                                <p  class="tooltip-channel-subscribers">5.35M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=VmTZ2yO3BZ4">HIKARU TAKES DOWN HANS NIEMANN!!!!!</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@GothamChess">GothamChess</a>
+                        </p>
+                        <p class="video-stats">130K views · 8 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=Fn1OeGys2L8">
+                        <img src="./assets/images/thumbnail/thumbnail-5.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">38:02</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@PewDiePie">
+                            <img src="./assets/images/profile/channel-5.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-5.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">PewDiePie</p>
+                                <p  class="tooltip-channel-subscribers">111M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=Fn1OeGys2L8">I WILL NOT APOLOGIZE FOR MY CRIMES</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@PewDiePie">PewDiePie</a>
+                        </p>
+                        <p class="video-stats">1.7M views · 10 days ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=ktGwDyR66l8">
+                        <img src="./assets/images/thumbnail/thumbnail-6.png" alt="thumbnail">
+                    </a>
+                    
+                    <div class="video-time">7:06</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@BlitzSpanks">
+                            <img src="./assets/images/profile/channel-6.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-6.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">BlitzSpanks</p>
+                                <p  class="tooltip-channel-subscribers">107K subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=ktGwDyR66l8">How One Item Almost Killed Dota 2</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@BlitzSpanks">BlitzSpanks</a>
+                        </p>
+                        <p class="video-stats">10K views · 10 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=HK_yvCsgLR4">
+                        <img src="./assets/images/thumbnail/thumbnail-7.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">23:07</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@HowToBeatYT">
+                            <img src="./assets/images/profile/channel-7.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-7.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">How To Beat</p>
+                                <p  class="tooltip-channel-subscribers">2.63M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=HK_yvCsgLR4">How To Beat LEATHERFACE In "The Texas Chainsaw Massacre"</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@HowToBeatYT">How To Beat</a>
+                        </p>
+                        <p class="video-stats">4.6M views · 3 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=xaZTFsmU5Mk">
+                        <img src="./assets/images/thumbnail/thumbnail-8.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">12:57</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@jessicaleeseul">
+                            <img src="./assets/images/profile/channel-8.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-8.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">Jessica Lee</p>
+                                <p  class="tooltip-channel-subscribers">1.51M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/@jessicaleeseul">How Fancy Can Sisig Get? | Ultimate Sisig Tour in Metro Manila 🇵🇭</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@SuperSimpleDev">Jessica Lee</a>
+                        </p>
+                        <p class="video-stats">478K views · 3 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=q_5n7URd2Gk">
+                        <img src="./assets/images/thumbnail/thumbnail-9.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">4:25</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@BRIGHTSIDEOFFICIAL">
+                            <img src="./assets/images/profile/channel-9.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-9.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">BRIGHT SIDE</p>
+                                <p  class="tooltip-channel-subscribers">44.6M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=q_5n7URd2Gk">The Bermuda Triangle Mystery Has Been Solved</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@BRIGHTSIDEOFFICIAL">BRIGHT SIDE</a>
+                        </p>
+                        <p class="video-stats">31M views · 6 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=yPhhVqjpnKE">
+                        <img src="./assets/images/thumbnail/thumbnail-10.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">15:21</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@astrumspace">
+                            <img src="./assets/images/profile/channel-10.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-10.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">Astrum</p>
+                                <p  class="tooltip-channel-subscribers">2.03M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=yPhhVqjpnKE">What's NASA Trying to Find at the Bottom of the Ocean?</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@astrumspace">Astrum</a>
+                        </p>
+                        <p class="video-stats">1.6M views · 4 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=Jnei1md-Ia0">
+                        <img src="./assets/images/thumbnail/thumbnail-11.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">4:10</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@chills">
+                            <img src="./assets/images/profile/channel-11.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-11.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">Chills</p>
+                                <p  class="tooltip-channel-subscribers">6.23M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=Jnei1md-Ia0">11 Scariest Things Caught By Drones</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@chills">Chills</a>
+                        </p>
+                        <p class="video-stats">76M views · 6 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=YBMhBDOSAfo">
+                        <img src="./assets/images/thumbnail/thumbnail-12.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">21:41</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/noobfromua">
+                            <img src="./assets/images/profile/channel-12.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-12.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">NoobFromUA</p>
+                                <p  class="tooltip-channel-subscribers">1.05M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=YBMhBDOSAfo">TEAM SPIRIT vs NOUNS - AMAZING PLAYOFFS DECIDER - TI13 THE INTERNATIONAL 2024 DOTA 2</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/noobfromua">NoobFromUA</a>
+                        </p>
+                        <p class="video-stats">122K views · 1 day ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=tzBmrpFNcH4"><img src="./assets/images/thumbnail/thumbnail-13.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">44:24</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@NatGeo">
+                            <img src="./assets/images/profile/channel-13.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-13.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">National Geographic</p>
+                                <p  class="tooltip-channel-subscribers">23.5M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=tzBmrpFNcH4">Ancient Islands: Ghost City of the Pacific (Full Episode) | Lost Cities with Albert Lin</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@NatGeo">National Geographic</a>
+                        </p>
+                        <p class="video-stats">5M views · 10 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=uYR4ZMlLUwI">
+                        <img src="./assets/images/thumbnail/thumbnail-14.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">19:12</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@realscience">
+                            <img src="./assets/images/profile/channel-14.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-14.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">Real Science</p>
+                                <p  class="tooltip-channel-subscribers">1.68M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=uYR4ZMlLUwI">Why Do Deep Sea Creatures Evolve Into Giants?</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@realscience">Real Science</a>
+                        </p>
+                        <p class="video-stats">8.1M views · 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=wlvog-Qd0zw">
+                        <img src="./assets/images/thumbnail/thumbnail-15.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">21:45</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@BigCompanyYT">
+                            <img src="./assets/images/profile/channel-15.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-15.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">Big Company</p>
+                                <p  class="tooltip-channel-subscribers">355K subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=wlvog-Qd0zw">How a Poor Japanese Boy Created Honda</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@BigCompanyYT">Big Company</a>
+                        </p>
+                        <p class="video-stats">7.9M views · 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-container">
+                    <a href="https://www.youtube.com/watch?v=AeJ9q45PfD0">
+                        <img src="./assets/images/thumbnail/thumbnail-16.png" alt="thumbnail">
+                    </a>
+                    <div class="video-time">12:01</div>
+                </div>
+                <div class="video-info-container">
+                    <div class="channel-profile-pic">
+                        <a href="https://www.youtube.com/@veritasium">
+                            <img src="./assets/images/profile/channel-16.jpg" alt="channel profile">
+                        </a>
+                        <div class="tooltip-container">    
+                            <img src="./assets/images/profile/channel-16.jpg" alt="channel profile">
+                            <div class="tooltip-column">
+                                <p class="tooltip-channel-name">Veritasium</p>
+                                <p  class="tooltip-channel-subscribers">16.1M subscribers</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a class="video-link" href="https://www.youtube.com/watch?v=AeJ9q45PfD0">World's Lightest Solid!</a>
+                        </p>
+                        <p class="channel-name">
+                            <a href="https://www.youtube.com/@veritasium">Veritasium</a>
+                        </p>
+                        <p class="video-stats">60M views · 5 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

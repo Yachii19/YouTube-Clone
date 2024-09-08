@@ -1,0 +1,78 @@
+.tooltip {
+    font-size: 12px;
+    position: absolute;
+    bottom: -50px;
+    background-color: rgba(60, 60, 60, 0.911);
+    color: white;
+    padding: 8px 12px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+.middle-section .search-container,
+.middle-section .voice-search-container,
+.right-section .icon-container {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search-container:hover .tooltip,
+.voice-search-container:hover .tooltip,
+.icon-container:hover .tooltip {
+    opacity: 1;
+}
+
+.channel-profile-pic {
+    display: flex;
+    position: relative;
+    height: 60px;
+}
+
+.channel-profile-pic .tooltip-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 8px rgba(110, 110, 110, 0.815);
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+
+    position: absolute;
+    bottom: -90px;
+    z-index: 300;
+}
+
+.channel-profile-pic:hover .tooltip-container {
+    opacity: 1;
+}
+
+.channel-profile-pic .tooltip-container img {
+    margin-right: 8px;
+    width: 50px;
+    height: 50px;
+    margin-top: 0;
+}
+
+.tooltip-column .tooltip-channel-name {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 5px;;
+    margin-right: 100px;
+}
+
+.tooltip-column .tooltip-channel-subscribers {
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+
+}
